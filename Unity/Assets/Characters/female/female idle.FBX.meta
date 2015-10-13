@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 6e5844393273b4a2cb2dee2dde425f0b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Head
+    100004: Hip
+    100006: Left_Ankle_Joint_01
+    100008: Left_Forearm_Joint_01
+    100010: Left_Index_Finger_Joint_01a
+    100012: Left_Index_Finger_Joint_01b
+    100014: Left_Knee_Joint_01
+    100016: Left_Middle_Finger_Joint_01a
+    100018: Left_Middle_Finger_Joint_01b
+    100020: Left_Pinky_Finger_Joint_01a
+    100022: Left_Pinky_Finger_Joint_01b
+    100024: Left_Ring_Finger_Joint_01a
+    100026: Left_Ring_Finger_Joint_01b
+    100028: Left_Shoulder_Joint_01
+    100030: Left_Thigh_Joint_01
+    100032: Left_Thumb_Joint_01a
+    100034: Left_Thumb_Joint_01b
+    100036: Left_Toe_Joint_01
+    100038: Left_Upper_Arm_Joint_01
+    100040: Left_Wrist_Joint_01
+    100042: Neck
+    100044: NU
+    100046: NU 1
+    100048: NU 10
+    100050: NU 11
+    100052: NU 12
+    100054: NU 2
+    100056: NU 3
+    100058: NU 4
+    100060: NU 5
+    100062: NU 6
+    100064: NU 7
+    100066: NU 8
+    100068: NU 9
+    100070: Ribs
+    100072: Ribs1
+    100074: Right_Ankle_Joint_01
+    100076: Right_Forearm_Joint_01
+    100078: Right_Index_Finger_Joint_01a
+    100080: Right_Index_Finger_Joint_01b
+    100082: Right_Knee_Joint_01
+    100084: Right_Middle_Finger_Joint_01a
+    100086: Right_Middle_Finger_Joint_01b
+    100088: Right_Pinky_Finger_Joint_01a
+    100090: Right_Pinky_Finger_Joint_01b
+    100092: Right_Ring_Finger_Joint_01a
+    100094: Right_Ring_Finger_Joint_01b
+    100096: Right_Shoulder_Joint_01
+    100098: Right_Thigh_Joint_01
+    100100: Right_Thumb_Joint_01a
+    100102: Right_Thumb_Joint_01b
+    100104: Right_Toe_Joint_01
+    100106: Right_Upper_Arm_Joint_01
+    100108: Right_Wrist_Joint_01
+    100110: Root
+    400000: //RootNode
+    400002: Head
+    400004: Hip
+    400006: Left_Ankle_Joint_01
+    400008: Left_Forearm_Joint_01
+    400010: Left_Index_Finger_Joint_01a
+    400012: Left_Index_Finger_Joint_01b
+    400014: Left_Knee_Joint_01
+    400016: Left_Middle_Finger_Joint_01a
+    400018: Left_Middle_Finger_Joint_01b
+    400020: Left_Pinky_Finger_Joint_01a
+    400022: Left_Pinky_Finger_Joint_01b
+    400024: Left_Ring_Finger_Joint_01a
+    400026: Left_Ring_Finger_Joint_01b
+    400028: Left_Shoulder_Joint_01
+    400030: Left_Thigh_Joint_01
+    400032: Left_Thumb_Joint_01a
+    400034: Left_Thumb_Joint_01b
+    400036: Left_Toe_Joint_01
+    400038: Left_Upper_Arm_Joint_01
+    400040: Left_Wrist_Joint_01
+    400042: Neck
+    400044: NU
+    400046: NU 1
+    400048: NU 10
+    400050: NU 11
+    400052: NU 12
+    400054: NU 2
+    400056: NU 3
+    400058: NU 4
+    400060: NU 5
+    400062: NU 6
+    400064: NU 7
+    400066: NU 8
+    400068: NU 9
+    400070: Ribs
+    400072: Ribs1
+    400074: Right_Ankle_Joint_01
+    400076: Right_Forearm_Joint_01
+    400078: Right_Index_Finger_Joint_01a
+    400080: Right_Index_Finger_Joint_01b
+    400082: Right_Knee_Joint_01
+    400084: Right_Middle_Finger_Joint_01a
+    400086: Right_Middle_Finger_Joint_01b
+    400088: Right_Pinky_Finger_Joint_01a
+    400090: Right_Pinky_Finger_Joint_01b
+    400092: Right_Ring_Finger_Joint_01a
+    400094: Right_Ring_Finger_Joint_01b
+    400096: Right_Shoulder_Joint_01
+    400098: Right_Thigh_Joint_01
+    400100: Right_Thumb_Joint_01a
+    400102: Right_Thumb_Joint_01b
+    400104: Right_Toe_Joint_01
+    400106: Right_Upper_Arm_Joint_01
+    400108: Right_Wrist_Joint_01
+    400110: Root
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

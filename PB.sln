@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PB.Client", "PB.Client\PB.Client.csproj", "{3D1BDDDB-7B35-4A5A-999F-0E269C23B603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PB.Common", "PB.Common\PB.Common.csproj", "{8C1F7F02-10EA-436F-9679-D4DB5B666BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PB.Game", "PB.Game\PB.Game.csproj", "{3A922753-925E-4BDF-B8FB-2263972A3FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photon.SocketServer.Mmo", "PB.Libs\Server\Photon.SocketServer.Mmo\Photon.SocketServer.Mmo.csproj", "{340F9008-B4B6-4AC4-8B96-6B3A8976C131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{340F9008-B4B6-4AC4-8B96-6B3A8976C131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340F9008-B4B6-4AC4-8B96-6B3A8976C131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340F9008-B4B6-4AC4-8B96-6B3A8976C131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340F9008-B4B6-4AC4-8B96-6B3A8976C131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A922753-925E-4BDF-B8FB-2263972A3FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A922753-925E-4BDF-B8FB-2263972A3FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A922753-925E-4BDF-B8FB-2263972A3FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A922753-925E-4BDF-B8FB-2263972A3FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1BDDDB-7B35-4A5A-999F-0E269C23B603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1BDDDB-7B35-4A5A-999F-0E269C23B603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1BDDDB-7B35-4A5A-999F-0E269C23B603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1BDDDB-7B35-4A5A-999F-0E269C23B603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1F7F02-10EA-436F-9679-D4DB5B666BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1F7F02-10EA-436F-9679-D4DB5B666BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1F7F02-10EA-436F-9679-D4DB5B666BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1F7F02-10EA-436F-9679-D4DB5B666BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PB.Game\PB.Game.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

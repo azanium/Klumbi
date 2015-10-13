@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{74BDB4D1-82BB-D381-EB19-FCEE23B5B78A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Editor\PopBloop\EditorHelpers.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\FBXPostprocessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\SACreateAnimationBundles.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\SACreateBaseCharacterBundles.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\SACreateCharacterElementsBundle.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\SACreateCharacterMaterialAssets.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\SACreateCharacterMaterialBundles.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\SACreateMaterialFromTexture.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\SAGenerateSkybox.cs" />
+     <Compile Include="Assets\Scripts\Editor\PopBloop\SaveFontTexture.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\AspectPerfect.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\AssetSettings\Asset.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\AssetSettings\AssetConfiguration.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\AssetSettings\AssetConfigurationCompareWindow.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\AssetSettings\AssetSettingsWindow.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\AssetSettings\AudioAsset.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\AssetSettings\TextureAsset.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\Build Scripts\BuildProcess.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\Build Scripts\PlatformBuildSettings.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\Build Scripts\TextureAssetSettings.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\EasyPlatform.cs" />
+     <Compile Include="Assets\Third Party\MultiPlatformToolSuite\Editor\PlatformSpecificsEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\BMFontReader.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\ComponentSelector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUIHandles.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUIHelp.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUIJson.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUIMenu.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUISettings.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUISnap.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\SpriteSelector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UICameraEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UICameraTool.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIFontInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIFontMaker.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIGridEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIInputEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UILabelInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIPanelTool.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIRectEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIRootEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UISliderEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UITableEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UITextureInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UITexturePacker.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+     <Compile Include="Assets\Third Party\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\EditorCore\UIDEAssetModProcessor.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\EditorCore\UIDEAssetPostProcessor.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\EditorCore\UIDEEditorWindow.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\EditorCore\UIDEFontProcessor.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\AutoComplete\AutoComplete.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\AutoComplete\UIDEAutoCompleteData.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\ErrorTracking\ErrorTracking.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\FindAndReplace\FindAndReplace.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\InlineErrorHighlighter\InlineErrorHighlighter.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\SyntaxRules\CSharp\CSKeywords.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\SyntaxRules\SyntaxRuleCSharpUnityscript.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\SyntaxRules\SyntaxRuleGeneric.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\SyntaxRules\Unityscript\USKeywords.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Plugins\UnityAPISearch\UnityAPISearch.cs" />
+     <Compile Include="Assets\Third Party\UnIDE\Editor\Themes\SlateDark\ThemeSlateDark.cs" />
+ <Reference Include="Assets\Editor\Prime31\Prime31MenuItem">
+ <HintPath>Assets\Editor\Prime31\Prime31MenuItem.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\LitJson">
+ <HintPath>Assets\Plugins\LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\P31RestKit">
+ <HintPath>Assets\Plugins\P31RestKit.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\PB.Client">
+ <HintPath>Assets\Plugins\PB.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\PB.Common">
+ <HintPath>Assets\Plugins\PB.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\protobuf-net">
+ <HintPath>Assets\Plugins\protobuf-net.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Third Party\UnIDE\Editor\UnIDE">
+ <HintPath>Assets\Third Party\UnIDE\Editor\UnIDE.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Third Party\UnIDE\Editor\Plugins\InlineErrorHighlighter\CSharpParser">
+ <HintPath>Assets\Third Party\UnIDE\Editor\Plugins\InlineErrorHighlighter\CSharpParser.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
+ <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BCA1084E-3BF6-8109-D94E-75D4F7B374A9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{66AE5DEB-7000-A670-4549-E0079C1EA677}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

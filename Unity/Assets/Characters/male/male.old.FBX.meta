@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 58dfeb7c4ab8c4e068352de85898d92c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: c_ha_hair04
+    100002: c_m_fo_sneakersconverse01
+    100004: c_m_l_bo_cargoslim01
+    100006: c_m_l_to_tshirt01
+    100008: c_m_m_bo_cargoslim01
+    100010: c_m_m_to_tshirt01
+    100012: c_m_s_bo_cargoslim01
+    100014: c_m_s_to_tshirt01
+    100016: hand
+    100018: Head
+    100020: head
+    100022: Hip
+    100024: Left_Ankle_Joint_01
+    100026: Left_Forearm_Joint_01
+    100028: Left_Index_Finger_Joint_01a
+    100030: Left_Index_Finger_Joint_01b
+    100032: Left_Knee_Joint_01
+    100034: Left_Middle_Finger_Joint_01a
+    100036: Left_Middle_Finger_Joint_01b
+    100038: Left_Pinky_Finger_Joint_01a
+    100040: Left_Pinky_Finger_Joint_01b
+    100042: Left_Ring_Finger_Joint_01a
+    100044: Left_Ring_Finger_Joint_01b
+    100046: Left_Shoulder_Joint_01
+    100048: Left_Thigh_Joint_01
+    100050: Left_Thumb_Joint_01a
+    100052: Left_Thumb_Joint_01b
+    100054: Left_Toe_Joint_01
+    100056: Left_Upper_Arm_Joint_01
+    100058: Left_Wrist_Joint_01
+    100060: //RootNode
+    100062: Neck
+    100064: NU
+    100066: NU 1
+    100068: NU 10
+    100070: NU 11
+    100072: NU 12
+    100074: NU 2
+    100076: NU 3
+    100078: NU 4
+    100080: NU 5
+    100082: NU 6
+    100084: NU 7
+    100086: NU 8
+    100088: NU 9
+    100090: Ribs
+    100092: Ribs1
+    100094: Right_Ankle_Joint_01
+    100096: Right_Forearm_Joint_01
+    100098: Right_Index_Finger_Joint_01a
+    100100: Right_Index_Finger_Joint_01b
+    100102: Right_Knee_Joint_01
+    100104: Right_Middle_Finger_Joint_01a
+    100106: Right_Middle_Finger_Joint_01b
+    100108: Right_Pinky_Finger_Joint_01a
+    100110: Right_Pinky_Finger_Joint_01b
+    100112: Right_Ring_Finger_Joint_01a
+    100114: Right_Ring_Finger_Joint_01b
+    100116: Right_Shoulder_Joint_01
+    100118: Right_Thigh_Joint_01
+    100120: Right_Thumb_Joint_01a
+    100122: Right_Thumb_Joint_01b
+    100124: Right_Toe_Joint_01
+    100126: Right_Upper_Arm_Joint_01
+    100128: Right_Wrist_Joint_01
+    100130: Root
+    400000: c_ha_hair04
+    400002: c_m_fo_sneakersconverse01
+    400004: c_m_l_bo_cargoslim01
+    400006: c_m_l_to_tshirt01
+    400008: c_m_m_bo_cargoslim01
+    400010: c_m_m_to_tshirt01
+    400012: c_m_s_bo_cargoslim01
+    400014: c_m_s_to_tshirt01
+    400016: hand
+    400018: Head
+    400020: head
+    400022: Hip
+    400024: Left_Ankle_Joint_01
+    400026: Left_Forearm_Joint_01
+    400028: Left_Index_Finger_Joint_01a
+    400030: Left_Index_Finger_Joint_01b
+    400032: Left_Knee_Joint_01
+    400034: Left_Middle_Finger_Joint_01a
+    400036: Left_Middle_Finger_Joint_01b
+    400038: Left_Pinky_Finger_Joint_01a
+    400040: Left_Pinky_Finger_Joint_01b
+    400042: Left_Ring_Finger_Joint_01a
+    400044: Left_Ring_Finger_Joint_01b
+    400046: Left_Shoulder_Joint_01
+    400048: Left_Thigh_Joint_01
+    400050: Left_Thumb_Joint_01a
+    400052: Left_Thumb_Joint_01b
+    400054: Left_Toe_Joint_01
+    400056: Left_Upper_Arm_Joint_01
+    400058: Left_Wrist_Joint_01
+    400060: //RootNode
+    400062: Neck
+    400064: NU
+    400066: NU 1
+    400068: NU 10
+    400070: NU 11
+    400072: NU 12
+    400074: NU 2
+    400076: NU 3
+    400078: NU 4
+    400080: NU 5
+    400082: NU 6
+    400084: NU 7
+    400086: NU 8
+    400088: NU 9
+    400090: Ribs
+    400092: Ribs1
+    400094: Right_Ankle_Joint_01
+    400096: Right_Forearm_Joint_01
+    400098: Right_Index_Finger_Joint_01a
+    400100: Right_Index_Finger_Joint_01b
+    400102: Right_Knee_Joint_01
+    400104: Right_Middle_Finger_Joint_01a
+    400106: Right_Middle_Finger_Joint_01b
+    400108: Right_Pinky_Finger_Joint_01a
+    400110: Right_Pinky_Finger_Joint_01b
+    400112: Right_Ring_Finger_Joint_01a
+    400114: Right_Ring_Finger_Joint_01b
+    400116: Right_Shoulder_Joint_01
+    400118: Right_Thigh_Joint_01
+    400120: Right_Thumb_Joint_01a
+    400122: Right_Thumb_Joint_01b
+    400124: Right_Toe_Joint_01
+    400126: Right_Upper_Arm_Joint_01
+    400128: Right_Wrist_Joint_01
+    400130: Root
+    4300000: c_m_m_to_tshirt01
+    4300002: hand
+    4300004: head
+    4300006: c_m_s_to_tshirt01
+    4300008: c_m_l_to_tshirt01
+    4300010: c_ha_hair04
+    4300012: c_m_fo_sneakersconverse01
+    4300014: c_m_m_bo_cargoslim01
+    4300016: c_m_l_bo_cargoslim01
+    4300018: c_m_s_bo_cargoslim01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: c_ha_hair04
+    13700002: c_m_fo_sneakersconverse01
+    13700004: c_m_l_bo_cargoslim01
+    13700006: c_m_l_to_tshirt01
+    13700008: c_m_m_bo_cargoslim01
+    13700010: c_m_m_to_tshirt01
+    13700012: c_m_s_bo_cargoslim01
+    13700014: c_m_s_to_tshirt01
+    13700016: hand
+    13700018: head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

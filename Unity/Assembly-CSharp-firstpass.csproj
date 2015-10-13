@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2662B409-6332-1E56-D797-C9025C53BDD6}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\MiniJSON.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingAndroid\FacebookAndroid.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingAndroid\TwitterAndroid.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingAndroid\demoAndroid\FacebookUIManager.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingAndroid\demoAndroid\TwitterUIManager.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\Facebook.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\FacebookBatchRequest.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\FacebookEventListener.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Facebook\FacebookManager.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Twitter\TwitterEventListener.cs" />
+     <Compile Include="Assets\Plugins\SocialNetworkingCommon\Twitter\TwitterManager.cs" />
+     <Compile Include="Assets\Plugins\iTween.cs" />
+     <Compile Include="Assets\Plugins\iTweenPath.cs" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Third Party\NGUI\ReadMe - 3.0.9 f4.txt" />
+     <None Include="Assets\Third Party\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Third Party\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Third Party\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Text (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Resources\Shaders\KlumbiBlend.shader" />
+     <None Include="Assets\Third Party\UnIDE\Readme.txt" />
+     <None Include="Assets\Third Party\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Third Party\MultiPlatformToolSuite\Editor\Build Resources\PostProcessAppleScript.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Plugins\Android\res\values-he\strings.xml" />
+     <None Include="Assets\Third Party\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Plugins\SocialNetworkingAndroid\Manifest.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
+     <None Include="Assets\Third Party\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_loginbutton_blue.xml" />
+     <None Include="Assets\Third Party\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Plugins\protobuf-net.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\Third Party\MultiPlatformToolSuite\readme.txt" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Third Party\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Third Party\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Artworks\Fonts\SegoeWP.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Third Party\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\Third Party\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Third Party\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Plugins\Android\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\Third Party\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Third Party\MultiPlatformToolSuite\Editor\AssetSettings\AssetSettings.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_title_bar.xml" />
+ <Reference Include="Assets\Plugins\LitJson">
+ <HintPath>Assets\Plugins\LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\P31RestKit">
+ <HintPath>Assets\Plugins\P31RestKit.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\PB.Client">
+ <HintPath>Assets\Plugins\PB.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\PB.Common">
+ <HintPath>Assets\Plugins\PB.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\protobuf-net">
+ <HintPath>Assets\Plugins\protobuf-net.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

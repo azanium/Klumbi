@@ -1,0 +1,12 @@
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\Photon.SocketServer.Mmo.dll
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\Photon.SocketServer.Mmo.pdb
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\ExitGamesLibs.dll
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\Photon.SocketServer.dll
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\PhotonHostRuntimeInterfaces.dll
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\ExitGamesLibs.pdb
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\ExitGamesLibs.xml
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\Photon.SocketServer.pdb
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\bin\Debug\Photon.SocketServer.xml
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\obj\Debug\Photon.SocketServer.Mmo.dll
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\obj\Debug\Photon.SocketServer.Mmo.pdb
+D:\PopBloop\popbloop\trunk\PopBloop\PB.Libs\Server\Photon.SocketServer.Mmo\obj\Debug\Photon.SocketServer.Mmo.csprojResolveAssemblyReference.cache

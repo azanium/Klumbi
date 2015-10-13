@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PB.Game/Character Generator/CharacterGenerator.cs">
+    <Files>
+      <File FileName="Unity/Assets/Scripts/Controllers/Home/StyleViewController.cs" Line="1" Column="1" />
+      <File FileName="Unity/Assets/Scripts/Models/AvatarItems.cs" Line="1" Column="1" />
+      <File FileName="Unity/Assets/Scripts/Controllers/Home/CreateMixController.cs" Line="1" Column="1" />
+      <File FileName="Unity/Assets/Scripts/Models/AvatarMix.cs" Line="5" Column="23" />
+      <File FileName="PB.Game/Character Generator/CharacterGenerator.cs" Line="1178" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
